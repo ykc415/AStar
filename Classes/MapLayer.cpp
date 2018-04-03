@@ -140,8 +140,8 @@ void AStar::MapLayer::drawPath(CoordinateList& path)
 
 }
 
-void AStar::MapLayer::startAStar() {
-
+void AStar::MapLayer::startAStar()
+{
 
     ANode* current = nullptr;
 
@@ -212,8 +212,6 @@ void AStar::MapLayer::startAStar() {
         resultPath.push_back(current->coordinates);
         current = current->parent;
     }
-
-
 
 
 
